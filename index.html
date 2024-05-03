@@ -1,15 +1,98 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
 </head>
 <body>
-    <h1>
-        Good one
-    </h1>
-    <p>
-        Come to me child dad will take care of you
-    </p>
+    <header>
+        <div id="name" class="header">
+            <h1>Balakrishna Musalimadugu</h1>
+        </div>
+        <div id="contact-info" class="header">
+            <pre>
+                <h3>appflaresolutions@gmail.com | <a href="https://www.linkedin.com/in/krishnamadugu/">LinkedIn</a> | <a href="https://github.com/krishnamadugu" target="_main">Github</a></h3>
+            </pre>
+        </div>
+    </header>
+   
+    <main>
+        <h2>About Me</h2>
+        <hr>
+        <article>
+            Dedicated and proficient Flutter developer, who worked on over 8 apps, a website and a Flutter SDK and I am always eager to
+            take on new challenges and expand my knowledge. I am a quick learner who is passionate about creating innovative and userfriendly applications that solve real-world problems and enhance user experience.
+        </article>
+        <section>
+            <div id="education-title" class="main">
+                <h1>Education</h1>
+                <hr>
+            </div>
+            <div id="education-content" class="main">
+                <h3>Lovely Professional University</h3>
+                <p>BTech | Computer Science Program</p>
+            </div>
+        </section>
+        <table>
+            <caption><h1>Experience</h1></caption>
+            <thead>
+                <tr>
+                    <th>
+                        Company Name
+                    </th>
+                    <th>Joined On</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DigiMantra Labs</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>OTPLess</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <h2>contact Me</h2>
+        <hr>
+        <form action="/action.php">
+            <label for="user-name">
+                <input type="text" name="user name" id="user-name" placeholder="Enter your Name">
+            </label>
+            <br>
+            <br>
+            <label for="text-area">
+                <textarea name="contact-query" id="text-area" cols="30" rows="10" placeholder="Write summary here"></textarea>
+            </label>
+            <p>Known from</p>
+            <label for="radio1">
+                <input type="radio" name="media" value="Instagram" id="radio1">Instagram
+            </label>
+            <label for="radio2">
+                <input type="radio" name="media" value="FaceBook" id="radio2">FaceBook
+            </label>
+            <label for="radio3">
+                <input type="radio" name="media" value="Github" id="radio3">Github
+            </label>
+            <br>
+            <p>select Reason for contacting</p>
+
+            <select name="reason" id="reason">
+                <option value="Enquiry">Enquiry</option>
+                <option value="Collabaration">Collabaration</option>
+                <option value="Job Oriented">Job Purpose</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit Form" height="50" width="50">
+            <h1>Learnt HTML from</h1>
+            <hr>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=sBF-GRY4kaDEKWcW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </form>
+    </footer>
 </body>
 </html>
