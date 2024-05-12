@@ -9,16 +9,11 @@ let compScoreText = document.querySelector('#comp_score');
 userChoices.forEach((val) => {   
     val.addEventListener('click', () => {
         let userChoice = val.getAttribute('id');
-        console.log("button clicked ",val.getAttribute('id'));
-        console.log(userChoices);
 
         let compChoice = genCompChoice();
-       console.log("computer choice : ",compChoice);
-       console.log("computer choice index : ",compChoice);
 
         if(userChoice === compChoice ){
             //draw Game
-            console.log("computer choice : ",compChoice);
             btnText.innerText = "Draw game";
             btnText.style.backgroundColor = "#000000";
         } else {
